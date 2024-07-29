@@ -1,0 +1,125 @@
+h
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy Research and Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            padding: 1em;
+        }
+        nav a {
+            margin: 0 1em;
+            text-decoration: none;
+            color: #4CAF50;
+        }
+        section {
+            padding: 2em;
+        }
+        footer {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: auto;
+        }
+        .contact-form label, .contact-form input, .contact-form textarea {
+            margin: 0.5em 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pharmacy Research and Projects</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#cam-research">CAM Research</a>
+            <a href="#tropical-medicines">Tropical Medicines</a>
+            <a href="#drug-extraction">Drug Extraction</a>
+            <a href="#assays">Assays</a>
+            <a href="#student-projects">Student Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome</h2>
+        <p>Welcome to our pharmacy research and projects page. Here, we focus on Complementary Alternative Medicine Research, Tropical Medicines, Drug Extraction, Assays, and Pharmacy Student Projects.</p>
+    </section>
+
+    <section id="cam-research">
+        <h2>Complementary Alternative Medicine Research</h2>
+        <p>Overview of what complementary alternative medicine (CAM) is.</p>
+        <p>Details about ongoing and recent research projects in CAM.</p>
+        <p>List of research papers and articles published by our team.</p>
+    </section>
+
+    <section id="tropical-medicines">
+        <h2>Tropical Medicines</h2>
+        <p>Overview of tropical medicines and their importance.</p>
+        <p>Information on specific projects focusing on tropical medicines.</p>
+        <p>Real-world applications and case studies of tropical medicines.</p>
+    </section>
+
+    <section id="drug-extraction">
+        <h2>Drug Extraction</h2>
+        <p>Overview of drug extraction processes and techniques.</p>
+        <p>Details about various drug extraction methods being used.</p>
+        <p>Recent advancements and innovations in drug extraction.</p>
+    </section>
+
+    <section id="assays">
+        <h2>Assays</h2>
+        <p>Explanation of what assays are and their significance in pharmacy.</p>
+        <p>Information about different types of assays (e.g., biological, chemical).</p>
+        <p>Standard operating procedures and protocols for conducting assays.</p>
+    </section>
+
+    <section id="student-projects">
+        <h2>Pharmacy Student Projects</h2>
+        <p>Information about student projects and their objectives.</p>
+        <p>Descriptions of some notable student projects.</p>
+        <p>Links to resources for students working on pharmacy projects.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <p>Address: 123 Pharmacy St, Medical City</p>
+        <p>Email: contact@pharmacyresearch.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pharmacy Research and Projects. All rights reserved.</p>
+        <p><a href="#privacy-policy">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
